@@ -64,6 +64,6 @@ model.fit(
 )
 
 # Save model
-model.save("model.keras")
+model = tf.keras.models.load_model("model.keras")
 
 print("✅ Training Complete!")
